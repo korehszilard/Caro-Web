@@ -1,0 +1,127 @@
+.services{
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    background-color: #fefefe;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.services .title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.main-card{
+    width: 360px;
+    height: 220px;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.front-card img{
+    width: 360px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.card{
+    transform-style: preserve-3d;
+    transition: all 0.6s ease;
+    border-radius: 10px;
+}
+
+.front-card{
+    position: absolute;
+    backface-visibility: hidden;
+    color: #fefefe;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.back-card{
+    position: absolute;
+    backface-visibility: hidden;
+    background: #bb0302;
+    width: 360px;
+    height: 220px;
+    color: #fefefe;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.front-card h4{
+    position: absolute;
+    left: 20px;
+    bottom: -10px;
+}
+
+.back-card  h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.back-card p{
+    font-size: 14px;
+    width: 250px;
+    margin: 20px auto;
+}
+
+.list{
+    margin: 10px auto;
+    padding: 10px;
+    width: 400px;
+    color: #fefefe;
+    background-color: #bb0302;
+    border-radius: 10px;
+    border: none;
+}
+
+.list:hover{
+    background-color: #800202;
+}
+
+@media (min-width: 1200px) {
+    .main-card{
+        width: 580px;
+        height: 360px;
+        margin-top: 30px;
+    } 
+
+    .front-card img{
+        width: 580px;
+        height: 360px;
+        border-radius: 10px;
+    }
+
+    .back-card{
+        width: 580px;
+        height: 360px;
+    }
+
+    .services .title{
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    .back-card  h3{
+        font-size: 34px;
+        margin-top: 20px;
+    }
+    
+    .back-card p{
+        font-size: 24px;
+        width: 500px;
+        margin: 40px auto;
+    }
+}
