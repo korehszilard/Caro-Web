@@ -7,8 +7,13 @@
 
 #back-dn{
     position: absolute;
-    height: 1200px;
-    left: 600px;
+    height: 850px;
+    left: -340px;
+    z-index: -1;
+}
+
+.dn-back-img{
+    display: none;
 }
 
 .container-dn{
@@ -71,6 +76,9 @@
 }
 
 @media (min-width: 992px) {
+    #back-dn{
+        left: -180px;
+    }
 
     .container-dn .title{
         font-size: 44px;
@@ -89,6 +97,22 @@
 
 @media (min-width: 1200px) {
     
+    .dn-back-img{
+        display: block;
+        position: absolute;
+        height: 850px;
+        left: -340px;
+        clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%,0% 100%);
+        z-index: -1;
+    }
+
+    #back-dn{
+        position: absolute;
+        height: 850px;
+        left: 100px;
+        z-index: -1;
+    }
+
     .container-dn .title{
         font-size: 44px;
     }
@@ -106,6 +130,14 @@
 
  @media (min-width: 1400px){
 
+    .dn-back-img{
+        left: -140px;
+    }
+
+    #back-dn{
+        left: 310px;
+    }
+    
     .container-dn .title{
         font-size: 44px;
     }

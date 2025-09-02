@@ -32,8 +32,16 @@
     font-family: "Tilt Neon", sans-serif;
 }
 
+@media (min-width: 768px) {
+    .realizari{
+        height: 850px;
+    }
+}
+
+
 @media (min-width: 1200px){
-.realizari li{
+
+    .realizari li{
     font-size: 22px;
 }
 
@@ -47,4 +55,14 @@
     opacity: 0.8;
 }
 
+}
+
+@media (min-width: 1400px){
+    #back-side-left{
+        opacity: 1;
+    }
+    
+    #back-side-right{
+        opacity: 1;
+    }
 }
