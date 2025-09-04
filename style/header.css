@@ -24,17 +24,21 @@ header {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 480px;
+    height: 490px;
     transition: all 0.3s ease;
     padding: 0 10px;
     font-weight: 600;
     font-family: "Roboto Condensed", sans-serif;
     background-color: white;
-    border-top: 4px solid #bb0302;
+    border-top: 4px solid black;
 }
 
 .nav-list.show {
     top: 76px;
+}
+
+.nav-list__element{
+    border-bottom: 1px solid lightslategray;
 }
 
 .nav-list__element a {
@@ -94,6 +98,7 @@ header {
     }
     
     .nav-list__element{
+        border: none;
         margin: 0;
         padding: 0 10px;
     }
