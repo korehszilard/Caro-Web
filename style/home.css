@@ -11,7 +11,7 @@
 .t-caro{
     position: absolute;
     z-index: 1;
-    left: calc(-80px + 20vw);
+    left: calc(-70px + 20vw);
     top: calc(50px + 20vw);
     font-weight: 700;
     font-family: "Poppins", sans-serif;
@@ -27,7 +27,7 @@
 .home h2{
     position: absolute;
     z-index: 1;
-    left: calc(-80px + 20vw);
+    left: calc(-70px + 20vw);
     top: calc(86px + 20vw);
     font-size: 14px;
     font-family: "Kalam", cursive;
@@ -37,7 +37,7 @@
 .home h3{
     position: absolute;
     z-index: 1;
-    left: calc(-80px + 20vw);
+    left: calc(-70px + 20vw);
     top: calc(116px + 20vw);
     font-size: 14px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
