@@ -6,8 +6,8 @@ header {
     width: 100vw;
     height: 100px;
     z-index: 10;
-    background: linear-gradient(90deg,white,#bb0302 40%,black,black);
-    border-bottom:3px solid #940101;
+    background: linear-gradient(90deg,white,#bb0302 40%,rgb(27, 27, 27),black);
+    border-bottom:3px solid black;
 }
 
 .header-logo img{
@@ -54,7 +54,7 @@ header {
     right: 40px;
     display: block;
     cursor: pointer;
-    color: #bb0302;
+    color: white;
 }
 
 .hamburger.show .bar:nth-child(2){
@@ -76,7 +76,7 @@ header {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background: black;
+    background: white;
 }
 
 .sticky{
