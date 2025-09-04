@@ -12,7 +12,7 @@
     position: absolute;
     z-index: 1;
     left: calc(-70px + 20vw);
-    top: calc(50px + 20vw);
+    top: calc(56px + 20vw);
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     font-size: 22px;
@@ -28,7 +28,7 @@
     position: absolute;
     z-index: 1;
     left: calc(-70px + 20vw);
-    top: calc(86px + 20vw);
+    top: calc(90px + 20vw);
     font-size: 14px;
     font-family: "Kalam", cursive;
     font-weight: 800;
