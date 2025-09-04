@@ -6,8 +6,8 @@ header {
     width: 100vw;
     height: 100px;
     z-index: 10;
-    background-color: white;
-    border-bottom:4px solid black;
+    background: linear-gradient(90deg,white,#bb0302 40%,black,black);
+    border-bottom:3px solid #940101;
 }
 
 .header-logo img{
@@ -29,7 +29,7 @@ header {
     padding: 0 10px;
     font-weight: 600;
     font-family: "Roboto Condensed", sans-serif;
-    background-color: white;
+    background: linear-gradient(145deg,black,#bb0302, black);
     border-top: 4px solid black;
 }
 
@@ -44,7 +44,7 @@ header {
 .nav-list__element a {
     font-size: 12px;
     line-height: 80px;
-    color: black;
+    color: white;
     letter-spacing: 0.01em;
 }
 
@@ -80,7 +80,7 @@ header {
 }
 
 .sticky{
-    background-color: white;
+    background: linear-gradient(145deg,black,#bb0302, black);
 }
 @media (min-width: 1200px) { 
 
