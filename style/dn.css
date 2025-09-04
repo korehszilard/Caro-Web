@@ -24,6 +24,8 @@
     justify-content: center;
     align-items: center;
     width: calc(8px + 40vw);
+    clip-path: polygon(-90% 0%, 0% 50%, -90% 100%, 100% 100%,100% 0%);
+    float: right;
 }
 
 .container-dn .title{
