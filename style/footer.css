@@ -1,6 +1,6 @@
 footer{
     text-align: center;
-    background: linear-gradient(#bb0302, black);
+    background: linear-gradient(#bb0302, black 90%);
     height: 390px;
     color: white;
     border-top: 2px solid black;
@@ -30,5 +30,9 @@ footer p{
 @media (min-width: 992px) {
     footer{
         height: 220px;
+    }
+
+    .foot-black{
+        background-color: black;
     }
 }
