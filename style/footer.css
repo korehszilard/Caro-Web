@@ -1,10 +1,34 @@
-footer {
+footer{
     text-align: center;
-    align-items: center;
-    overflow: hidden;
-    padding: 2%;
-    height: 100px;
-    z-index: 10;
-    background-color: black;
+    background: linear-gradient(#bb0302, black);
+    height: 390px;
     color: white;
+    border-top: 2px solid black;
+    overflow: hidden;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+.left-side{
+    margin-top: 20px;
+    float: left;
+}
+
+.right-side{
+    float: right;
+    margin: 20px auto;
+}
+
+@media (min-width: 768px) {
+    footer{
+        height: 244px;
+    }
+}
+
+@media (min-width: 992px) {
+    footer{
+        height: 220px;
+    }
 }

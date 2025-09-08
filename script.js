@@ -22,6 +22,13 @@ function togglePopup (){
     document.getElementById("popup-1").classList.toggle("active")
 }
 
+const links = document.querySelectorAll(".nav-list__element a");
+links.forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add("hover");
+  }
+});
+
 const initSlider = () => {
     const imageList = document.querySelector(".slider-wrapper .image-list");
     const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");

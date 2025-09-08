@@ -6,6 +6,7 @@
 .home .back-img{
     margin-top: 99px;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .t-caro{
@@ -60,6 +61,7 @@
     text-align: center;
     background: linear-gradient(145deg,black,#bb0302, black);
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-serv .bi{

@@ -6,8 +6,8 @@ header {
     width: 100vw;
     height: 100px;
     z-index: 10;
-    background: linear-gradient(90deg,white,#bb0302 40%,rgb(27, 27, 27),black);
-    border-bottom:3px solid black;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .header-logo img{
@@ -18,19 +18,18 @@ header {
 .nav-list {
     margin-top: 20px;
     text-align: center;
-    display: inline;
+    display: inline-block;
     position: fixed;
     height: 100%;
     top: -100%;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 490px;
     transition: all 0.3s ease;
-    padding: 0 10px;
     font-weight: 600;
     font-family: "Roboto Condensed", sans-serif;
-    background: linear-gradient(145deg,black,#bb0302, black);
-    border-top: 4px solid black;
+    background-color: white; 
+    padding-left: 0;
 }
 
 .nav-list.show {
@@ -38,14 +37,20 @@ header {
 }
 
 .nav-list__element{
-    border-bottom: 1px solid lightslategray;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .nav-list__element a {
     font-size: 12px;
     line-height: 80px;
+    color: black;
+    letter-spacing: 0.04em;
+    display: block;
+}
+
+.nav-list__element a.hover{
+    background: #bb0302;
     color: white;
-    letter-spacing: 0.01em;
 }
 
 .hamburger{
@@ -54,7 +59,7 @@ header {
     right: 40px;
     display: block;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 .hamburger.show .bar:nth-child(2){
@@ -76,14 +81,14 @@ header {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background: white;
+    background: black;
 }
 
 .sticky{
-    background: linear-gradient(145deg,black,#bb0302, black);
+    background-color: white;
 }
 @media (min-width: 1200px) { 
-
+    
     .hamburger{
         display: none;
     }
@@ -93,18 +98,24 @@ header {
         border: none;
         height: 0;
         top: 0px;
-        margin-top: 10px;
+        margin-top: 0px;
         left: 300px;
     }
     
     .nav-list__element{
         border: none;
         margin: 0;
-        padding: 0 10px;
     }
     
-    .nav-list__element a {
-        font-size: 22px;    
+    .nav-list__element a{
+        font-size: 22px; 
+        padding: 10px 30px;
+        height: 100px;  
+    }
+
+    .nav-list__element a.hover{
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
     
     .header-logo {
@@ -120,13 +131,7 @@ header {
         border: none;
         height: 0;
         top: 0px;
-        margin-top: 10px;
         left: calc(-200px + 40vw);
-    }
-    
-    .nav-list__element{
-        margin: 0;
-        padding: 0 10px;
     }
     
     .nav-list__element a {
