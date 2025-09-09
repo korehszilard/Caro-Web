@@ -1,9 +1,8 @@
 footer{
     text-align: center;
-    background: linear-gradient(#bb0302, black 90%);
-    height: 390px;
+    background-color: #8f0202;
+    height: 400px;
     color: white;
-    border-top: 2px solid black;
     overflow: hidden;
 }
 
@@ -12,7 +11,7 @@ footer p{
 }
 
 .left-side{
-    margin-top: 20px;
+    margin-top: 40px;
     float: left;
 }
 
@@ -23,16 +22,35 @@ footer p{
 
 @media (min-width: 768px) {
     footer{
-        height: 244px;
+        height: 260px;
     }
 }
 
 @media (min-width: 992px) {
     footer{
-        height: 220px;
+        height: 300px;
     }
 
     .foot-black{
-        background-color: black;
+        background-color: #610000;
+        margin-top: 10px;
+        padding: 20px 20px;
+    }
+
+    footer p{
+        margin-top: 30px;
+    }
+
+    .left-side{
+        margin-top: 20px;
+    }
+    
+    .right-side{
+        float: right;
+        margin: 40px auto;
+    }
+
+    .foot-icon{
+        margin-top: 20px;
     }
 }
