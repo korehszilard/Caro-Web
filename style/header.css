@@ -100,7 +100,7 @@ header {
         height: 0;
         top: 0px;
         margin-top: 0px;
-        left: 300px;
+        left: calc(-180px + 40vw);
     }
     
     .nav-list__element{
@@ -109,7 +109,7 @@ header {
     }
     
     .nav-list__element a{
-        font-size: 22px; 
+        font-size: 18px; 
         padding: 10px 30px;
         height: 100px;  
     }
